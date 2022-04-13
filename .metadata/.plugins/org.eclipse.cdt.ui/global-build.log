@@ -1,0 +1,49 @@
+16:38:30 **** Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+16:38:38 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+16:42:37 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:71:22: warning: implicit declaration of function ‘calcular’ [-Wimplicit-function-declaration]
+   71 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~
+../src/Menu.c:71:22: warning: ‘auxBtc_cantidadPesos’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   71 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:71:22: warning: ‘auxTarjetaCredito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/Menu.c:71:22: warning: ‘auxTarjetaDebito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+16:43:02 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.

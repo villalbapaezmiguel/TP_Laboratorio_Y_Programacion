@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;tp_numero_Uno/src/funciones.c&apos; to &apos;funciones.h&apos;" description="Rename resource &apos;funciones.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/funciones.c" name="funciones.h" stamp="1649878929920" updateReferences="true"/>
+</session>
