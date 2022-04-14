@@ -13,6 +13,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
+#include "funciones.h"
 
 void menu(void);
 

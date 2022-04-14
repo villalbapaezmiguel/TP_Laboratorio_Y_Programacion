@@ -6,22 +6,15 @@
  */
 
 #include "funciones.h"
-//
-//void cargaForzada(int preciokilimetros , int precioTDebito , int precioTCredito , int Preciobitcoin)
-//{
-//	int tarjetaDebito ;
-//	int tarjetaCredito ;
-//	//a) Tarjeta de débito (descuento 10%)
-//	tarjetaDebito = precioTDebito*10/100 ;
-//	tarjetaDebito = tarjetaDebito- precioTDebito;
-//
-//	//b) Tarjeta de crédito (interés 25%)
-//	tarjetaCredito = precioTCredito*25/100;
-//	tarjetaCredito = tarjetaCredito + precioTCredito;
-//
-//	//c) Bitcoin (1BTC -> 4606954.55 Pesos Argentinos)
-//
-//}
+
+void cargaForzada(int preciokilimetros , int precioTDebito , int precioTCredito , int Preciobitcoin)
+{
+	preciokilimetros = 700;
+	precioTDebito = 250 ;
+	precioTCredito = 150 ;
+	Preciobitcoin = 33.66;
+
+}
 
 /*int calcular(float precio , float kilometros)
  * esta funcion calcula los precios de :
@@ -39,7 +32,8 @@ int calcular(float auxPrecio , float auxKilometros , float auxTarjetaDebito , fl
 				//Aerolíneas:
 		//a) Tarjeta de débito (descuento 10%)
 				auxTarjetaDebito = auxPrecio*10/100 ;
-				auxTarjetaDebito = auxTarjetaDebito- auxPrecio;
+				auxTarjetaDebito = auxPrecio- auxTarjetaDebito;
+				printf("\nauxTarjetaDebito : %.2f", auxTarjetaDebito);
 		//b) Tarjeta de crédito (interés 25%)
 				auxTarjetaCredito = auxPrecio*25/100;
 				auxTarjetaCredito = auxTarjetaCredito + auxPrecio;
@@ -54,6 +48,20 @@ int calcular(float auxPrecio , float auxKilometros , float auxTarjetaDebito , fl
 
 void informar(float auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos )
 {
+	/*“Latam:
+a) Precio con tarjeta de débito: r
+b) Precio con tarjeta de crédito: r
+c) Precio pagando con bitcoin : r
+d) Precio unitario: r
+Aerolíneas:
+a) Precio con tarjeta de débito: r
+b) Precio con tarjeta de crédito: r
+c) Precio pagando con bitcoin : r
+d) Precio unitario: r
+La diferencia de precio es : r “*/
 
+	printf("\nA) Precio con tarjeta de débito: %.2f", auxTarjetaDebito);
+	printf("\nB) Precio con tarjeta de crédito: %.2f", auxTarjetaCredito);
+	printf("\nc) Precio pagando con bitcoin : %.2f", auxBtc_cantidadPesos);
 
 }

@@ -14,9 +14,15 @@ void menu(void)
 
 	int opcion ;
 	float kilometrosIngresados ;
-	int precioVueloAerolineas ;
-	int precioVueloLatam ;
+	float precioVueloAerolineas ;
+	float precioVueloLatam ;
 	char caracterOpcionPrecioVuelo ;
+
+	int estadoCalcular = -1;
+	float auxTarjetaDebito = 0;
+	float auxTarjetaCredito= 0;
+	float auxBtc_cantidadPesos= 0;
+
 	do {
 		printf("\n1) Ingresar Kilometros: ( km=x) ");
 		printf("\n2) Ingresar Precio de Vuelos: (Aerolíneas=y, Latam=z) ");
@@ -47,26 +53,16 @@ void menu(void)
 				}
 
 				printf("\nIngrese precio vuelo Aereolineas : ");
-				scanf("%d", &precioVueloAerolineas);
+				scanf("%f", &precioVueloAerolineas);
 				printf("\nIngrese precio vuelo Latam : ");
-				scanf("%d", &precioVueloLatam);//podemos hacer una funcion para controlar los precio y no pongan numeros negativos
+				scanf("%f", &precioVueloLatam);//podemos hacer una funcion para controlar los precio y no pongan numeros negativos
 
 				printf("\n----------Listo ya se integraron los precios (Aerolíneas y Latam)-----------\n");
 
 				break ;
 			case 3:
-				/*3. Calcular todos los costos:
-a) Tarjeta de débito (descuento 10%)
-b) Tarjeta de crédito (interés 25%)
-c) Bitcoin (1BTC -> 4606954.55 Pesos Argentinos)
-d) Mostrar precio por km (precio unitario)
-e) Mostrar diferencia de precio ingresada (Latam - Aerolíneas)*/
+				/*3. Calcular todos los costos:*/
 				printf("\n3) Calcular todos los costos: ");
-
-				int estadoCalcular = -1;
-				float auxTarjetaDebito;
-				float auxTarjetaCredito;
-				float auxBtc_cantidadPesos;
 
 				estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
 				if(estadoCalcular == 1)
@@ -78,6 +74,10 @@ e) Mostrar diferencia de precio ingresada (Latam - Aerolíneas)*/
 				break ;
 			case 4:
 				printf("\n4) Informar Resultados ");
+				printf("\nAereolineas :");
+				informar(auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+				printf("\nLatam :");
+				informar(auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
 				break ;
 		}
 	} while (opcion != 5);
