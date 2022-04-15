@@ -1509,3 +1509,204 @@ Finished building target: tp_numero_Uno
 23:59:03 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
 make all 
 make: No se hace nada para 'all'.
+13:09:46 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:11:23 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:28:50 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:28:53 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:33:48 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:34:49 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:34:52 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:35:55 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:35:58 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:43:51 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:43:55 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:47:14 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:47:17 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:49:43 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:50:02 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:50:05 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:51:22 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:51:25 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:56:35 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:56:50 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:56:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+13:57:55 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+13:57:58 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+14:28:30 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+14:28:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.

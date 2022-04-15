@@ -18,8 +18,7 @@ void menu(void)
 	float precioVueloLatam ;
 	char caracterOpcionPrecioVuelo ;
 
-	int estadoCalcularAerolineas = -1;
-	int estadoCalcularLatam = -1;
+	int estadoCalcular = -1;
 	float auxTarjetaDebito_Aerolineas ;
 	float auxTarjetaCredito_Aerolineas;
 	float auxBtc_cantidadPesos_Aerolineas;
@@ -35,8 +34,7 @@ void menu(void)
 		printf("\n2) Ingresar Precio de Vuelos:");
 		printf("\n3) Calcular todos los costos: ");
 		printf("\n4) Informar Resultados ");
-		printf("\n5) Carga forzada");
-		printf("\n6) Salir");
+		printf("\n5) Salir ");
 		printf("\nIngrese opcion :");
 		scanf("%d",&opcion);
 	//me genera un loop si en opciones ponemos una letra
@@ -59,21 +57,20 @@ void menu(void)
 					- Precio vuelo Aerolíneas:
 					- Precio vuelo Latam:*/
 				printf("\n2) Ingresar Precio de Vuelos");
+				printf("\n selecciona (Aerolíneas=y ||  Latam=z || Salir= 's') : ");
+				__fpurge(stdin);
+				scanf("%c", &caracterOpcionPrecioVuelo);
+
+				while(caracterOpcionPrecioVuelo != 'y' && caracterOpcionPrecioVuelo != 'z' && caracterOpcionPrecioVuelo != 's')
+				{
+					printf("\nERROR");
+					printf("\n2) Ingresar Precio de Vuelos (Aerolíneas=y ||  Latam=z || Salir= 's'): ");
+					scanf("%c",&caracterOpcionPrecioVuelo);
+				}
 				do{
 					printf("\nPrecio de Vuelos");
 					printf("\nAerolíneas = %.2f\nLatam =%.2f  ", precioVueloAerolineas ,precioVueloLatam );
-					printf("\n2) Ingresar opcion (Aerolíneas=y ||  Latam=z || Salir= 's'): ");
-					__fpurge(stdin);
-					scanf("%c",&caracterOpcionPrecioVuelo);
-
-					while(caracterOpcionPrecioVuelo != 'y' && caracterOpcionPrecioVuelo != 'z' && caracterOpcionPrecioVuelo != 's')
-					{
-						printf("\nERROR");
-						printf("\n2) Ingresar Precio de Vuelos (Aerolíneas=y ||  Latam=z || Salir= 's'): ");
-						__fpurge(stdin);
-						scanf("%c",&caracterOpcionPrecioVuelo);
-					}
-
+					printf("\nSalir = s ");
 					switch(caracterOpcionPrecioVuelo )
 					{
 					case 'y':
@@ -108,28 +105,47 @@ void menu(void)
 				}while(banderaPreciosVuelos != 1);
 				if(banderaAerolineas == 1 && banderaLatam == 1)
 				{
-					printf("\n----------Listo ya se integraron los precios (Aerolíneas y Latam)-----------\n");
-				}else if(banderaAerolineas == 1 && banderaLatam != 1){
-					printf("\n---------Solo se ingreso Aerolíneas--------------\n");
-				}else if(banderaLatam == 1 && banderaAerolineas != 1){
-					printf("\n---------Solo se ingreso Latam--------------\n");
+					printf("\n----------Listo ya se integraron los precios (Aerolíneas y Latam)-----------");
 				}
+
+//				if(caracterOpcionPrecioVuelo == 'y')
+//				{
+//					printf("\nIngrese precio vuelo Aereolineas : ");
+//					scanf("%f", &precioVueloAerolineas);
+//					while(precioVueloAerolineas <= 0)
+//					{
+//						printf("\n el precio tiene que ser mayor a cero ");
+//						printf("\nIngrese precio vuelo Aereolineas : ");
+//						scanf("%f", &precioVueloAerolineas);
+//					}
+//					printf("\n----------Listo ya se integraron los precios Aerolíneas-----------\n");
+//
+//				}else if(caracterOpcionPrecioVuelo == 'z'){
+//					printf("\nIngrese precio vuelo Latam : ");
+//					scanf("%f", &precioVueloLatam);
+//					while(precioVueloLatam <= 0)
+//					{
+//						printf("\n el precio tiene que ser mayor a cero ");
+//						printf("\nIngrese precio vuelo Latam : ");
+//						scanf("%f", &precioVueloLatam);
+//						printf("\n----------Listo ya se integraron los precios Latam-----------\n");
+//
+//					}
+//				}
+//				printf("\n----------Listo ya se integraron los precios (Aerolíneas y Latam)-----------\n");
+
 				break ;
 			case 3:
 				/*3. Calcular todos los costos:*/
 				printf("\n3) Calcular todos los costos: ");
 
-				estadoCalcularAerolineas = calcular(precioVueloAerolineas, kilometrosIngresados, &auxTarjetaDebito_Aerolineas, &auxTarjetaCredito_Aerolineas, &auxBtc_cantidadPesos_Aerolineas);
-				estadoCalcularLatam = calcular(precioVueloLatam, kilometrosIngresados, &auxTarjetaDebito_Latam, &auxTarjetaCredito_Latam, &auxBtc_cantidadPesos_Latam);
+				estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, &auxTarjetaDebito_Aerolineas, &auxTarjetaCredito_Aerolineas, &auxBtc_cantidadPesos_Aerolineas);
+				printf("\n tarjeta de debito : %f", auxTarjetaDebito_Aerolineas);
+				estadoCalcular = calcular(precioVueloLatam, kilometrosIngresados, &auxTarjetaDebito_Latam, &auxTarjetaCredito_Latam, &auxBtc_cantidadPesos_Latam);
 
-				if(estadoCalcularAerolineas == 1 && estadoCalcularLatam == 1)
+				if(estadoCalcular == 1)
 				{
 					printf("\n--------------Ya se calculo---------");
-				}else if(estadoCalcularAerolineas == 1 && estadoCalcularLatam != 1){
-					printf("\nSolo se pudo calcular Aerolineas");
-				}else if(estadoCalcularLatam == 1 && estadoCalcularAerolineas != 1)
-				{
-					printf("\nSolo se pudo calcular Latam");
 				}else{
 					printf("\n--------------------No se pudo calcular--------------------");
 				}
@@ -149,6 +165,6 @@ void menu(void)
 				break;
 
 		}
-	} while (opcion != 6);
+	} while (opcion != 5);
 
 }

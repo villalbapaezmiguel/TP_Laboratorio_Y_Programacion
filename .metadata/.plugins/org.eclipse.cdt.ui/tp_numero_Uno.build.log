@@ -1,6 +1,6 @@
-23:59:03 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+14:28:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
 make all 
 make: No se hace nada para 'all'.
 
-23:59:04 Build Finished. 0 errors, 0 warnings. (took 594ms)
+14:28:54 Build Finished. 0 errors, 0 warnings. (took 593ms)
 

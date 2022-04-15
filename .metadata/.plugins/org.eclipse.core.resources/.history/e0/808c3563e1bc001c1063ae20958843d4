@@ -35,8 +35,7 @@ void menu(void)
 		printf("\n2) Ingresar Precio de Vuelos:");
 		printf("\n3) Calcular todos los costos: ");
 		printf("\n4) Informar Resultados ");
-		printf("\n5) Carga forzada");
-		printf("\n6) Salir");
+		printf("\n5) Salir ");
 		printf("\nIngrese opcion :");
 		scanf("%d",&opcion);
 	//me genera un loop si en opciones ponemos una letra
@@ -149,6 +148,6 @@ void menu(void)
 				break;
 
 		}
-	} while (opcion != 6);
+	} while (opcion != 5);
 
 }

@@ -35,8 +35,7 @@ void menu(void)
 		printf("\n2) Ingresar Precio de Vuelos:");
 		printf("\n3) Calcular todos los costos: ");
 		printf("\n4) Informar Resultados ");
-		printf("\n5) Carga forzada");
-		printf("\n6) Salir");
+		printf("\n5) Salir ");
 		printf("\nIngrese opcion :");
 		scanf("%d",&opcion);
 	//me genera un loop si en opciones ponemos una letra
@@ -120,16 +119,12 @@ void menu(void)
 				printf("\n3) Calcular todos los costos: ");
 
 				estadoCalcularAerolineas = calcular(precioVueloAerolineas, kilometrosIngresados, &auxTarjetaDebito_Aerolineas, &auxTarjetaCredito_Aerolineas, &auxBtc_cantidadPesos_Aerolineas);
-				estadoCalcularLatam = calcular(precioVueloLatam, kilometrosIngresados, &auxTarjetaDebito_Latam, &auxTarjetaCredito_Latam, &auxBtc_cantidadPesos_Latam);
 
-				if(estadoCalcularAerolineas == 1 && estadoCalcularLatam == 1)
+				estadoCalcularAerolineas = calcular(precioVueloLatam, kilometrosIngresados, &auxTarjetaDebito_Latam, &auxTarjetaCredito_Latam, &auxBtc_cantidadPesos_Latam);
+
+				if(estadoCalcularAerolineas == 1)
 				{
 					printf("\n--------------Ya se calculo---------");
-				}else if(estadoCalcularAerolineas == 1 && estadoCalcularLatam != 1){
-					printf("\nSolo se pudo calcular Aerolineas");
-				}else if(estadoCalcularLatam == 1 && estadoCalcularAerolineas != 1)
-				{
-					printf("\nSolo se pudo calcular Latam");
 				}else{
 					printf("\n--------------------No se pudo calcular--------------------");
 				}
@@ -149,6 +144,6 @@ void menu(void)
 				break;
 
 		}
-	} while (opcion != 6);
+	} while (opcion != 5);
 
 }
