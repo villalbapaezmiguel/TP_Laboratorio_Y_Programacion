@@ -47,3 +47,1465 @@ Finished building target: tp_numero_Uno
 16:43:02 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
 make all 
 make: No se hace nada para 'all'.
+23:23:52 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:23:55 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:29:47 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:71:22: warning: implicit declaration of function ‘calcular’ [-Wimplicit-function-declaration]
+   71 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~
+../src/Menu.c:82:5: warning: implicit declaration of function ‘informar’ [-Wimplicit-function-declaration]
+   82 |     informar(auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |     ^~~~~~~~
+../src/Menu.c:83:12: warning: unknown escape sequence: '\L'
+   83 |     printf("\Latam :");
+      |            ^~~~~~~~~~
+../src/Menu.c:71:22: warning: ‘auxBtc_cantidadPesos’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   71 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:71:22: warning: ‘auxTarjetaCredito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/Menu.c:71:22: warning: ‘auxTarjetaDebito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:34:32 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:83:12: warning: unknown escape sequence: '\L'
+   83 |     printf("\Latam :");
+      |            ^~~~~~~~~~
+../src/Menu.c:71:22: warning: ‘auxTarjetaDebito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   71 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:71:22: warning: ‘auxTarjetaCredito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/Menu.c:71:22: warning: ‘auxBtc_cantidadPesos’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:34:58 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:71:22: warning: ‘auxTarjetaDebito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   71 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:71:22: warning: ‘auxTarjetaCredito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/Menu.c:71:22: warning: ‘auxBtc_cantidadPesos’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:36:12 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:36:19 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:39:55 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:40:00 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:41:06 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:41:09 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:42:56 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:42:59 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:45:26 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:72:22: warning: ‘auxTarjetaDebito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   72 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:72:22: warning: ‘auxTarjetaCredito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/Menu.c:72:22: warning: ‘auxBtc_cantidadPesos’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:46:01 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:46:04 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:47:56 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:48:06 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:48:09 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:48:58 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:49:07 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:50:45 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:51:13 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:67:31: error: incompatible type for argument 1 of ‘calcular’
+   67 |     estadoCalcular = calcular(&precioVueloAerolineas, &kilometrosIngresados, &auxTarjetaDebito, &auxTarjetaCredito, &auxBtc_cantidadPesos);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~
+      |                               |
+      |                               float *
+In file included from ../src/Menu.h:16,
+                 from ../src/Menu.c:8:
+../src/funciones.h:13:20: note: expected ‘float’ but argument is of type ‘float *’
+   13 | int calcular(float precio , float kilometros , float tarjetaDebito , float tarjetaCredito , float btc_cantidadPesos );
+      |              ~~~~~~^~~~~~
+../src/Menu.c:67:55: error: incompatible type for argument 2 of ‘calcular’
+   67 |     estadoCalcular = calcular(&precioVueloAerolineas, &kilometrosIngresados, &auxTarjetaDebito, &auxTarjetaCredito, &auxBtc_cantidadPesos);
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~
+      |                                                       |
+      |                                                       float *
+In file included from ../src/Menu.h:16,
+                 from ../src/Menu.c:8:
+../src/funciones.h:13:35: note: expected ‘float’ but argument is of type ‘float *’
+   13 | int calcular(float precio , float kilometros , float tarjetaDebito , float tarjetaCredito , float btc_cantidadPesos );
+      |                             ~~~~~~^~~~~~~~~~
+../src/Menu.c:67:78: error: incompatible type for argument 3 of ‘calcular’
+   67 |     estadoCalcular = calcular(&precioVueloAerolineas, &kilometrosIngresados, &auxTarjetaDebito, &auxTarjetaCredito, &auxBtc_cantidadPesos);
+      |                                                                              ^~~~~~~~~~~~~~~~~
+      |                                                                              |
+      |                                                                              float *
+In file included from ../src/Menu.h:16,
+                 from ../src/Menu.c:8:
+../src/funciones.h:13:54: note: expected ‘float’ but argument is of type ‘float *’
+   13 | int calcular(float precio , float kilometros , float tarjetaDebito , float tarjetaCredito , float btc_cantidadPesos );
+      |                                                ~~~~~~^~~~~~~~~~~~~
+../src/Menu.c:67:97: error: incompatible type for argument 4 of ‘calcular’
+   67 |     estadoCalcular = calcular(&precioVueloAerolineas, &kilometrosIngresados, &auxTarjetaDebito, &auxTarjetaCredito, &auxBtc_cantidadPesos);
+      |                                                                                                 ^~~~~~~~~~~~~~~~~~
+      |                                                                                                 |
+      |                                                                                                 float *
+In file included from ../src/Menu.h:16,
+                 from ../src/Menu.c:8:
+../src/funciones.h:13:76: note: expected ‘float’ but argument is of type ‘float *’
+   13 | int calcular(float precio , float kilometros , float tarjetaDebito , float tarjetaCredito , float btc_cantidadPesos );
+      |                                                                      ~~~~~~^~~~~~~~~~~~~~
+../src/Menu.c:67:117: error: incompatible type for argument 5 of ‘calcular’
+   67 |     estadoCalcular = calcular(&precioVueloAerolineas, &kilometrosIngresados, &auxTarjetaDebito, &auxTarjetaCredito, &auxBtc_cantidadPesos);
+      |                                                                                                                     ^~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                     |
+      |                                                                                                                     float *
+In file included from ../src/Menu.h:16,
+                 from ../src/Menu.c:8:
+../src/funciones.h:13:99: note: expected ‘float’ but argument is of type ‘float *’
+   13 | int calcular(float precio , float kilometros , float tarjetaDebito , float tarjetaCredito , float btc_cantidadPesos );
+      |                                                                                             ~~~~~~^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:51:34 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:52:02 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+00:28:11 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+19:04:02 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+19:45:32 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c:43:6: error: conflicting types for ‘informar’
+   43 | void informar(float* auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos )
+      |      ^~~~~~~~
+In file included from ../src/funciones.c:8:
+../src/funciones.h:14:6: note: previous declaration of ‘informar’ was here
+   14 | void informar(float auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos );
+      |      ^~~~~~~~
+../src/funciones.c: In function ‘informar’:
+../src/funciones.c:57:49: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   57 |  printf("\nA) Precio con tarjeta de débito: %.2f", auxTarjetaDebito);
+      |                                              ~~~^   ~~~~~~~~~~~~~~~~
+      |                                                 |   |
+      |                                                 |   float *
+      |                                                 double
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:45:43 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c:43:6: error: conflicting types for ‘informar’
+   43 | void informar(float* auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos )
+      |      ^~~~~~~~
+In file included from ../src/funciones.c:8:
+../src/funciones.h:14:6: note: previous declaration of ‘informar’ was here
+   14 | void informar(float auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos );
+      |      ^~~~~~~~
+../src/funciones.c: In function ‘informar’:
+../src/funciones.c:57:49: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float **’ [-Wformat=]
+   57 |  printf("\nA) Precio con tarjeta de débito: %.2f", &auxTarjetaDebito);
+      |                                              ~~~^   ~~~~~~~~~~~~~~~~~
+      |                                                 |   |
+      |                                                 |   float **
+      |                                                 double
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:45:56 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+19:49:03 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+19:50:51 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘informar’:
+../src/funciones.c:57:49: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   57 |  printf("\nA) Precio con tarjeta de débito: %.2f", auxTarjetaDebito);
+      |                                              ~~~^   ~~~~~~~~~~~~~~~~
+      |                                                 |   |
+      |                                                 |   float *
+      |                                                 double
+../src/funciones.c:58:50: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   58 |  printf("\nB) Precio con tarjeta de crédito: %.2f", auxTarjetaCredito);
+      |                                               ~~~^   ~~~~~~~~~~~~~~~~~
+      |                                                  |   |
+      |                                                  |   float *
+      |                                                  double
+../src/funciones.c:59:47: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘float *’ [-Wformat=]
+   59 |  printf("\nc) Precio pagando con bitcoin : %.2f", auxBtc_cantidadPesos);
+      |                                            ~~~^   ~~~~~~~~~~~~~~~~~~~~
+      |                                               |   |
+      |                                               |   float *
+      |                                               double
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+19:51:11 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+19:51:15 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+19:53:19 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+19:53:22 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+19:58:30 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:34:5: error: invalid type argument of unary ‘*’ (have ‘float’)
+   34 |     *auxTarjetaDebito = tarjetaDebito;
+      |     ^~~~~~~~~~~~~~~~~
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+../src/funciones.c:23:8: warning: unused variable ‘tarjetacredito’ [-Wunused-variable]
+   23 |  float tarjetacredito ;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:58:39 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:34:23: error: lvalue required as left operand of assignment
+   34 |     &auxTarjetaDebito = tarjetaDebito;
+      |                       ^
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+../src/funciones.c:23:8: warning: unused variable ‘tarjetacredito’ [-Wunused-variable]
+   23 |  float tarjetacredito ;
+      |        ^~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:58:47 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+../src/funciones.c:23:8: warning: unused variable ‘tarjetacredito’ [-Wunused-variable]
+   23 |  float tarjetacredito ;
+      |        ^~~~~~~~~~~~~~
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+19:59:21 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:00:00 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:00:04 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:01:24 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:01:27 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:07:51 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:67:22: warning: ‘auxTarjetaDebito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   67 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, auxTarjetaDebito, auxTarjetaCredito, auxBtc_cantidadPesos);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:67:22: warning: ‘auxTarjetaCredito’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+../src/Menu.c:67:22: warning: ‘auxBtc_cantidadPesos’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:09:21 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:09:28 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:10:18 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:10:21 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:23:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+In file included from ../src/Menu.h:16,
+                 from ../src/Menu.c:8:
+../src/funciones.h:13:54: error: expected ‘;’, ‘,’ or ‘)’ before ‘&’ token
+   13 | int calcular(float precio , float kilometros , float &tarjetaDebito , float &tarjetaCredito , float &btc_cantidadPesos );
+      |                                                      ^
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:67:22: warning: implicit declaration of function ‘calcular’ [-Wimplicit-function-declaration]
+   67 |     estadoCalcular = calcular(precioVueloAerolineas, kilometrosIngresados, &auxTarjetaDebito, &auxTarjetaCredito, &auxBtc_cantidadPesos);
+      |                      ^~~~~~~~
+make: *** [src/subdir.mk:26: src/Menu.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:24:14 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c:18:60: error: expected ‘;’, ‘,’ or ‘)’ before ‘&’ token
+   18 | int calcular(float auxPrecio , float auxKilometros , float &auxTarjetaDebito , float &auxTarjetaCredito , float &auxBtc_cantidadPesos )
+      |                                                            ^
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:24:57 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:34:22: error: incompatible types when assigning to type ‘float *’ from type ‘float’
+   34 |   auxTarjetaDebito = tarjetaDebito;
+      |                      ^~~~~~~~~~~~~
+../src/funciones.c:38:25: error: incompatible types when assigning to type ‘float *’ from type ‘float’
+   38 |     auxTarjetaCredito = tarjetacredito;
+      |                         ^~~~~~~~~~~~~~
+../src/funciones.c:40:28: error: incompatible types when assigning to type ‘float *’ from type ‘double’
+   40 |     auxBtc_cantidadPesos = auxPrecio/ btc;
+      |                            ^~~~~~~~~
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:25:13 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘calcular’:
+../src/funciones.c:24:8: warning: unused variable ‘Btc_cantidadPesos’ [-Wunused-variable]
+   24 |  float Btc_cantidadPesos ;
+      |        ^~~~~~~~~~~~~~~~~
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:25:20 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:28:15 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:28:20 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:31:13 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:34:24 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:34:28 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+20:36:23 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:36:31 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+20:36:34 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+21:03:26 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+21:03:30 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+21:08:49 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:27:8: warning: unused variable ‘auxBtc_cantidadPesos_Latam’ [-Wunused-variable]
+   27 |  float auxBtc_cantidadPesos_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:26:8: warning: unused variable ‘auxTarjetaCredito_Latam’ [-Wunused-variable]
+   26 |  float auxTarjetaCredito_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/Menu.c:25:8: warning: unused variable ‘auxTarjetaDebito_Latam’ [-Wunused-variable]
+   25 |  float auxTarjetaDebito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+21:11:29 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+21:11:38 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+21:11:40 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+21:14:36 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+21:14:40 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+21:15:08 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+21:15:47 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+21:17:46 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+21:19:03 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:25:10 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:23:44: error: incompatible type for argument 3 of ‘calcular’
+   23 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:55: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                ~~~~~~~^~~~~~~~~~~~~
+../src/funciones.c:23:73: error: incompatible type for argument 4 of ‘calcular’
+   23 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:78: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                       ~~~~~~~^~~~~~~~~~~~~~
+../src/funciones.c:23:103: error: incompatible type for argument 5 of ‘calcular’
+   23 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                       |
+      |                                                                                                       float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:102: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                                               ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:27:44: error: incompatible type for argument 3 of ‘calcular’
+   27 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:55: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                ~~~~~~~^~~~~~~~~~~~~
+../src/funciones.c:27:73: error: incompatible type for argument 4 of ‘calcular’
+   27 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:78: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                       ~~~~~~~^~~~~~~~~~~~~~
+../src/funciones.c:27:103: error: incompatible type for argument 5 of ‘calcular’
+   27 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                       |
+      |                                                                                                       float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:102: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                                               ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:22:8: warning: unused variable ‘auxBtc_cantidadPesos_Latam’ [-Wunused-variable]
+   22 |  float auxBtc_cantidadPesos_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:21:8: warning: unused variable ‘auxTarjetaCredito_Latam’ [-Wunused-variable]
+   21 |  float auxTarjetaCredito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:20:8: warning: unused variable ‘auxTarjetaDebito_Latam’ [-Wunused-variable]
+   20 |  float auxTarjetaDebito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:26:08 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:24:53: error: incompatible type for argument 3 of ‘calcular’
+   24 |  estado = calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                     |
+      |                                                     float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:55: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                ~~~~~~~^~~~~~~~~~~~~
+../src/funciones.c:24:82: error: incompatible type for argument 4 of ‘calcular’
+   24 |  estado = calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  |
+      |                                                                                  float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:78: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                       ~~~~~~~^~~~~~~~~~~~~~
+../src/funciones.c:24:112: error: incompatible type for argument 5 of ‘calcular’
+   24 |  estado = calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                |
+      |                                                                                                                float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:102: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                                               ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:28:44: error: incompatible type for argument 3 of ‘calcular’
+   28 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:55: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                ~~~~~~~^~~~~~~~~~~~~
+../src/funciones.c:28:73: error: incompatible type for argument 4 of ‘calcular’
+   28 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:78: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                       ~~~~~~~^~~~~~~~~~~~~~
+../src/funciones.c:28:103: error: incompatible type for argument 5 of ‘calcular’
+   28 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                       |
+      |                                                                                                       float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:102: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                                               ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:23:8: warning: unused variable ‘auxBtc_cantidadPesos_Latam’ [-Wunused-variable]
+   23 |  float auxBtc_cantidadPesos_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:22:8: warning: unused variable ‘auxTarjetaCredito_Latam’ [-Wunused-variable]
+   22 |  float auxTarjetaCredito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:21:8: warning: unused variable ‘auxTarjetaDebito_Latam’ [-Wunused-variable]
+   21 |  float auxTarjetaDebito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:20:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+   20 |  int estado ;
+      |      ^~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:26:40 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:24:53: error: invalid type argument of unary ‘*’ (have ‘float’)
+   24 |  estado = calcular(precioAerolineas, auxKilometros, *auxTarjetaDebito_Aerolineas, *auxTarjetaCredito_Aerolineas, *auxBtc_cantidadPesos_Aerolineas);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:24:83: error: invalid type argument of unary ‘*’ (have ‘float’)
+   24 |  estado = calcular(precioAerolineas, auxKilometros, *auxTarjetaDebito_Aerolineas, *auxTarjetaCredito_Aerolineas, *auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:24:114: error: invalid type argument of unary ‘*’ (have ‘float’)
+   24 |  estado = calcular(precioAerolineas, auxKilometros, *auxTarjetaDebito_Aerolineas, *auxTarjetaCredito_Aerolineas, *auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:28:44: error: incompatible type for argument 3 of ‘calcular’
+   28 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:55: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                ~~~~~~~^~~~~~~~~~~~~
+../src/funciones.c:28:73: error: incompatible type for argument 4 of ‘calcular’
+   28 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:78: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                       ~~~~~~~^~~~~~~~~~~~~~
+../src/funciones.c:28:103: error: incompatible type for argument 5 of ‘calcular’
+   28 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                       |
+      |                                                                                                       float
+In file included from ../src/funciones.c:8:
+../src/funciones.h:13:102: note: expected ‘float *’ but argument is of type ‘float’
+   13 | int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+      |                                                                                               ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:23:8: warning: unused variable ‘auxBtc_cantidadPesos_Latam’ [-Wunused-variable]
+   23 |  float auxBtc_cantidadPesos_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:22:8: warning: unused variable ‘auxTarjetaCredito_Latam’ [-Wunused-variable]
+   22 |  float auxTarjetaCredito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:21:8: warning: unused variable ‘auxTarjetaDebito_Latam’ [-Wunused-variable]
+   21 |  float auxTarjetaDebito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:20:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+   20 |  int estado ;
+      |      ^~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:27:25 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:83:53: error: invalid type argument of unary ‘*’ (have ‘float’)
+   83 |  estado = calcular(precioAerolineas, auxKilometros, *auxTarjetaDebito_Aerolineas, *auxTarjetaCredito_Aerolineas, *auxBtc_cantidadPesos_Aerolineas);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:83:83: error: invalid type argument of unary ‘*’ (have ‘float’)
+   83 |  estado = calcular(precioAerolineas, auxKilometros, *auxTarjetaDebito_Aerolineas, *auxTarjetaCredito_Aerolineas, *auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:83:114: error: invalid type argument of unary ‘*’ (have ‘float’)
+   83 |  estado = calcular(precioAerolineas, auxKilometros, *auxTarjetaDebito_Aerolineas, *auxTarjetaCredito_Aerolineas, *auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:87:44: error: incompatible type for argument 3 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            float
+../src/funciones.c:14:61: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                      ~~~~~~~^~~~~~~~~~~~~~~~
+../src/funciones.c:87:73: error: incompatible type for argument 4 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float
+../src/funciones.c:14:87: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:87:103: error: incompatible type for argument 5 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                       |
+      |                                                                                                       float
+../src/funciones.c:14:114: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                                           ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:82:8: warning: unused variable ‘auxBtc_cantidadPesos_Latam’ [-Wunused-variable]
+   82 |  float auxBtc_cantidadPesos_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:81:8: warning: unused variable ‘auxTarjetaCredito_Latam’ [-Wunused-variable]
+   81 |  float auxTarjetaCredito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:80:8: warning: unused variable ‘auxTarjetaDebito_Latam’ [-Wunused-variable]
+   80 |  float auxTarjetaDebito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:79:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+   79 |  int estado ;
+      |      ^~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:27:59 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:83:53: error: incompatible type for argument 3 of ‘calcular’
+   83 |  estado = calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                     |
+      |                                                     float
+../src/funciones.c:14:61: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                      ~~~~~~~^~~~~~~~~~~~~~~~
+../src/funciones.c:83:82: error: incompatible type for argument 4 of ‘calcular’
+   83 |  estado = calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                  |
+      |                                                                                  float
+../src/funciones.c:14:87: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:83:112: error: incompatible type for argument 5 of ‘calcular’
+   83 |  estado = calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                                |
+      |                                                                                                                float
+../src/funciones.c:14:114: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                                           ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:87:44: error: incompatible type for argument 3 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            float
+../src/funciones.c:14:61: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                      ~~~~~~~^~~~~~~~~~~~~~~~
+../src/funciones.c:87:73: error: incompatible type for argument 4 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float
+../src/funciones.c:14:87: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:87:103: error: incompatible type for argument 5 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                       |
+      |                                                                                                       float
+../src/funciones.c:14:114: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                                           ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:82:8: warning: unused variable ‘auxBtc_cantidadPesos_Latam’ [-Wunused-variable]
+   82 |  float auxBtc_cantidadPesos_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:81:8: warning: unused variable ‘auxTarjetaCredito_Latam’ [-Wunused-variable]
+   81 |  float auxTarjetaCredito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:80:8: warning: unused variable ‘auxTarjetaDebito_Latam’ [-Wunused-variable]
+   80 |  float auxTarjetaDebito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:79:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+   79 |  int estado ;
+      |      ^~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:29:22 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:87:44: error: incompatible type for argument 3 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            float
+../src/funciones.c:14:61: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                      ~~~~~~~^~~~~~~~~~~~~~~~
+../src/funciones.c:87:73: error: incompatible type for argument 4 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         float
+../src/funciones.c:14:87: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                ~~~~~~~^~~~~~~~~~~~~~~~~
+../src/funciones.c:87:103: error: incompatible type for argument 5 of ‘calcular’
+   87 |  calcular(precioAerolineas, auxKilometros, auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+      |                                                                                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                                                       |
+      |                                                                                                       float
+../src/funciones.c:14:114: note: expected ‘float *’ but argument is of type ‘float’
+   14 | int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , float *auxTarjetaCredito , float *auxBtc_cantidadPesos )
+      |                                                                                                           ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:82:8: warning: unused variable ‘auxBtc_cantidadPesos_Latam’ [-Wunused-variable]
+   82 |  float auxBtc_cantidadPesos_Latam;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:81:8: warning: unused variable ‘auxTarjetaCredito_Latam’ [-Wunused-variable]
+   81 |  float auxTarjetaCredito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:80:8: warning: unused variable ‘auxTarjetaDebito_Latam’ [-Wunused-variable]
+   80 |  float auxTarjetaDebito_Latam ;
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+../src/funciones.c:79:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+   79 |  int estado ;
+      |      ^~~~~~
+make: *** [src/subdir.mk:26: src/funciones.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:30:10 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:79:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+   79 |  int estado ;
+      |      ^~~~~~
+Finished building: ../src/funciones.c
+ 
+Building file: ../src/tp_numero_Uno.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/tp_numero_Uno.d" -MT"src/tp_numero_Uno.o" -o "src/tp_numero_Uno.o" "../src/tp_numero_Uno.c"
+Finished building: ../src/tp_numero_Uno.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:30:26 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+../src/funciones.c: In function ‘cargaForzada’:
+../src/funciones.c:79:6: warning: unused variable ‘estado’ [-Wunused-variable]
+   79 |  int estado ;
+      |      ^~~~~~
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:30:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:32:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:32:58 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:34:26 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:34:30 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:35:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:35:56 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:36:37 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:36:40 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:40:42 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+../src/Menu.c: In function ‘menu’:
+../src/Menu.c:100:35: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  100 |     printf("\nKMs ingresados : %.2f", 7090);
+      |                                ~~~^   ~~~~
+      |                                   |   |
+      |                                   |   int
+      |                                   double
+      |                                %.2d
+Finished building: ../src/Menu.c
+ 
+Building file: ../src/funciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/funciones.d" -MT"src/funciones.o" -o "src/funciones.o" "../src/funciones.c"
+Finished building: ../src/funciones.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:40:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:40:57 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:41:34 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:41:36 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:43:22 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:57:50 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:57:54 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:58:22 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:58:26 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.
+23:59:01 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+Building file: ../src/Menu.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Menu.d" -MT"src/Menu.o" -o "src/Menu.o" "../src/Menu.c"
+Finished building: ../src/Menu.c
+ 
+Building target: tp_numero_Uno
+Invoking: GCC C Linker
+gcc  -o "tp_numero_Uno"  ./src/Menu.o ./src/funciones.o ./src/tp_numero_Uno.o   
+Finished building target: tp_numero_Uno
+ 
+23:59:03 **** Incremental Build of configuration Debug for project tp_numero_Uno ****
+make all 
+make: No se hace nada para 'all'.

@@ -10,6 +10,8 @@
 
 #include "Menu.h"
 
-int calcular(float precio , float kilometros , float tarjetaDebito , float tarjetaCredito , float btc_cantidadPesos );
-void informar(float auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos );
+int calcular(float precio , float kilometros , float *tarjetaDebito , float *tarjetaCredito , float *btc_cantidadPesos );
+void informar(float auxPrecio, float auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos );
+void cargaForzada (float auxKilometros , float precioAerolineas , float PrecioLatam);
+
 #endif /* FUNCIONES_C_ */
