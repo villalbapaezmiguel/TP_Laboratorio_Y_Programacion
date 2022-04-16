@@ -19,7 +19,7 @@ int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , f
 	float tarjetacredito ;
 	float Btc_cantidadPesos ;
 
-	if((auxPrecio > 0 && auxPrecio != 0) && (auxKilometros > 0 && auxKilometros != 0))
+	if((auxPrecio >s 0 && auxPrecio != 0) && (auxKilometros > 0 && auxKilometros != 0))
 	{
 		estado = 1;
 				//Aerolíneas:

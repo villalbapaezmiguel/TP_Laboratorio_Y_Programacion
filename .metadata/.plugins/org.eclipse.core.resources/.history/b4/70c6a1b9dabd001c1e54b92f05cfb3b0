@@ -46,11 +46,8 @@ int calcular(float auxPrecio , float auxKilometros , float *auxTarjetaDebito , f
 }
 
 /*esta funcion void informar:
- *informa todos los resultados de :
- *a) Precio con tarjeta de débito: r
- *b) Precio con tarjeta de crédito: r
- *c) Precio pagando con bitcoin : r
- *d) Precio unitario: r */
+ *informa todos los resultados de */
+
 void informar(float auxPrecio, float auxTarjetaDebito , float auxTarjetaCredito , float auxBtc_cantidadPesos )
 {
 	/*“Latam:

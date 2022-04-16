@@ -28,7 +28,7 @@ void menu(void)
 	int banderaPreciosVuelos = -1;
 	int banderaAerolineas = -1;
 	int banderaLatam = -1;
-	int banderaCalculado= -1;
+
 	do {
 		printf("\n1) Ingresar Kilometros:");
 		printf("\n2) Ingresar Precio de Vuelos:");
@@ -122,10 +122,8 @@ void menu(void)
 				estadoCalcularAerolineas = calcular(precioVueloAerolineas, kilometrosIngresados, &auxTarjetaDebito_Aerolineas, &auxTarjetaCredito_Aerolineas, &auxBtc_cantidadPesos_Aerolineas);
 				estadoCalcularLatam = calcular(precioVueloLatam, kilometrosIngresados, &auxTarjetaDebito_Latam, &auxTarjetaCredito_Latam, &auxBtc_cantidadPesos_Latam);
 
-				//tiene un error, entra igual aunque uno de los dos este en estado -1
 				if((estadoCalcularAerolineas == 1) && (estadoCalcularLatam == 1))
 				{
-					banderaCalculado = 1;
 					printf("\n--------------Ya se calculo---------");
 				}else if(estadoCalcularAerolineas == 1 && estadoCalcularLatam != 1){
 					printf("\nSolo se pudo calcular Aerolineas");
@@ -138,18 +136,11 @@ void menu(void)
 
 				break ;
 			case 4://4) Informar Resultados
-				//si la bandera da 1 significa que fue calculado , de lo contrario le va a tirar un mensaje de
-				//debe calcular primero para mostrar
-				if(banderaCalculado == 1)
-				{
-					printf("\n4) Informar Resultados ");
-					printf("\nAereolineas :");
-					informar(precioVueloAerolineas ,auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
-					printf("\nLatam :");
-					informar(precioVueloLatam, auxTarjetaDebito_Latam, auxTarjetaCredito_Latam, auxBtc_cantidadPesos_Latam);
-				}else{
-					printf("\nNo se puede informar porque todavia no se calculo");
-				}
+				printf("\n4) Informar Resultados ");
+				printf("\nAereolineas :");
+				informar(precioVueloAerolineas ,auxTarjetaDebito_Aerolineas, auxTarjetaCredito_Aerolineas, auxBtc_cantidadPesos_Aerolineas);
+				printf("\nLatam :");
+				informar(precioVueloLatam, auxTarjetaDebito_Latam, auxTarjetaCredito_Latam, auxBtc_cantidadPesos_Latam);
 				break ;
 			case 5 ://5) Carga forzada de datos
 				printf("\n5) carga forzada");
