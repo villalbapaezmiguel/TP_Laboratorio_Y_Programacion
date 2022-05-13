@@ -168,12 +168,13 @@ int ordenarPorApellido(Passenger* list , int len)
 			flagSwap = 0;
 			for (int i = 0; i < len; ++i) {
 
-				if(list[i].isEmpty || list[i+1].isEmpty)
+				if(list[i].isEmpty == VACIO || list[i+1].isEmpty == VACIO)
 				{
 					continue ;
 				}
 				if(strncmp(list[i].lastName ,list[i+1].lastName , NAME_LASTNAME) > 0)
 				{
+					printf("\nentro");
 					flagSwap = 1;
 					buffer = list[i];
 					list[i] = list[i+1];
@@ -225,61 +226,120 @@ void menu (Passenger* list , int len )
 	int auxLugarLibre ;
 	int auxLugarLibreModificar ;
 	int auxIdBaja ;
+	int bandera = -1;
 
+	int total = 0;
+	float promedio = 0;
+	int cantidadPasajeros = 0;
 	if(initPassengers(list, PASSANGER_LEN) == 1)
 	{
 		printf("\nya se inicializaron correctamente");
 	}
 
-	altaForzada(list, len, 0, "Miguel", "Villalba", 2000, 1, "buenass");
-	altaForzada(list, len, 1, "Pepe", "Argento", 350, 2, "boludoooo");
-	altaForzada(list, len, 2, "Alex", "El leon", 1200, 1, "GUAUUUU");
-	altaForzada(list, len, 3, "Thor", "Pe", 100, 2, "rayo");
+	altaForzada(list, len, 0, "Miguel", "V", 2000, 1, "buenass");
+	altaForzada(list, len, 4, "Thor", "Z", 100, 2, "rayo");
+	altaForzada(list, len, 1, "Pepe", "A", 350, 2, "boludoooo");
+	altaForzada(list, len, 2, "Alex", "E leon", 1200, 1, "GUAUUUU");
+	altaForzada(list, len, 3, "Thor", "P", 100, 2, "rayo");
 
 	do {
 		printf("\n1) ALTA \n2)MODIFICACION \n3)BAJA \n4)INFORMAR \nSALIR ");
-		utn_pedirInt(&opcion, "\nIngrese una opcion : ","\nERROR",1, 5, 2);
+		utn_pedirInt(&opcion, "\nIngrese una opcion : ","\nERROR opcion invalida",1, 5, 2);
 		switch(opcion)
 		{
 		case 1:
-			printf("\nALTA");
-				if(buscarPrimeraPosicionLibre(list, len, &auxLugarLibre) == 1)
-				{
-					printf("\nLugar libre encontrado : %d", auxLugarLibre);
-					if(addPassenger(list, len, *&auxLugarLibre) == 1)
+			if(bandera == -1)
+			{
+				printf("\n-------------------------------------ALTA----------------------------------------");
+					if(buscarPrimeraPosicionLibre(list, len, &auxLugarLibre) == 1)
 					{
-						printf("\nAlta finalizada ");
+						printf("\nLugar libre encontrado : %d", auxLugarLibre);
+						if(addPassenger(list, len, *&auxLugarLibre) == 1)
+						{
+							printf("\n------------------------------------Alta finalizada--------------------------------");
+							bandera = 0;
+						}
 					}
-				}
+			}
 			break ;
 		case 2:
-			printf("\nMODIFICACION");
+			printf("\n----------------------------------------------MODIFICACION--------------------------------------");
+			if(bandera == 0)
+			{
 				utn_pedirInt(&auxLugarLibreModificar, "\nIngrese el Id al modificar :", "\nERROR ", 0, len, 2);
 
 				if(buscarPorId(list, len, &auxLugarLibreModificar) == 1)
 				{
 					if(modificacion(list, len, auxLugarLibreModificar) == 1)
 					{
-						printf("\nFin de la modificacion");
+						printf("\n--------------------------------------Fin de la modificacion------------------------------");
 					}
 				}
+
+			}else{
+				printf("\nno se puede ingresar a los casos 2, 3 y 4; sin antes haber realizado la carga de algún pasajero.");
+
+			}
 			break ;
 		case 3:
-			printf("\nBAJA");
-			utn_pedirInt(&auxIdBaja, "\nIngrese el Id para dar de baja :", "\nERROR ", 0, len, 2);
-			if(buscarPorId(list, len, &auxIdBaja) == 1)
+			printf("\n---------------------------------------BAJA-----------------------------------------");
+			if(bandera == 0)
 			{
-				if(baja(list, len, auxIdBaja) == 1)
+				utn_pedirInt(&auxIdBaja, "\nIngrese el Id para dar de baja :", "\nERROR ", 0, len, 2);
+				if(buscarPorId(list, len, &auxIdBaja) == 1)
 				{
-					printf("\nFin de la Baja");
+					if(baja(list, len, auxIdBaja) == 1)
+					{
+						printf("\n----------------------------------------------Fin de la Baja-------------------------------------");
+					}
 				}
-			}
 
+			}else{
+				printf("\nno se puede ingresar a los casos 2, 3 y 4; sin antes haber realizado la carga de algún pasajero.");
+
+			}
 
 			break ;
 		case 4:
-			printf("\nINFORMAR");
-			printPassenger(list, len);
+			printf("\n-------------------------------INFORMAR---------------------------");
+			if(bandera == 0)
+			{
+				int opcionInformar ;
+				printf("\n\n1)Listar los pasajeros en ordens alfabéticamente por Apellido y Tipo de pasajero "
+						"\n2)Total y promedio de los precios de los pasajes, y cuántos pasajeros superan el precio promedio. "
+						"\n3)Listar los pasajeros por Código de vuelo y estados de vuelos ‘ACTIVO’");
+				utn_pedirInt(&opcionInformar, "\nIngrese una de las 3 Opciones : ", "\nOpicon invalida", 1, 3, 2);
+
+				switch(opcionInformar)
+				{
+//1. Listado de los pasajeros ordenados alfabéticamente por Apellido y Tipo de pasajero
+				case 1:
+					printf("\n----LISTA SIN ORDENAR---- ");
+					printPassenger(list, len);
+					if(ordenarPorApellido(list, len) == 1)
+					{
+						printf("\n----LISTA ORDENADA----- ");
+						imprimirApellido_Tipo(list, len);
+					}
+					break;
+//2. Total y promedio de los precios de los pasajes, y cuántos pasajeros superan el precio promedio.
+				case 2:
+					TotalPromedioPasajeros(list, len, &total, &promedio, &cantidadPasajeros);
+					printf("\n TOTAL : %d || PROMEDIO : %f || CANTIDAD DE PASAJEROS QUE SUPERAN EL PRECIO PROMEDIO :  %d", total , promedio , cantidadPasajeros);
+					break;
+//3. Listado de los pasajeros por Código de vuelo y estados de vuelos ‘ACTIVO’
+
+				case 3:
+
+
+					break;
+
+				}
+
+
+			}else{
+				printf("\nno se puede ingresar a los casos 2, 3 y 4; sin antes haber realizado la carga de algún pasajero.");
+			}
 			break ;
 		case 5:
 			printf("\nSaliste del programa ");
@@ -429,7 +489,83 @@ void altaForzada(Passenger* list , int len ,int id, char* name , char* lastName 
 
 }
 
+//2. Total y promedio de los precios de los pasajes, y cuántos pasajeros superan el precio promedio.
 
+int TotalPromedioPasajeros(Passenger* list , int len , int* total , float* promedio , int* cantidadPasajerosSuperanPromedio)
+{
+	int estado = -1;
+	int i , j;
+	int auxContadorPasajeros = 0;
+	int auxSumaPrecioPasajeros = 0;
+	float auxPromedioPrecioPasajeros = 0;
+	int auxCantidadPasajerosSuperanPromedio = 0;
+	if(list != NULL && len > 0)
+	{
+		for (i = 0; i < len; ++i) {
 
+			if(list[i].isEmpty == OCUPADO)
+			{
+				auxContadorPasajeros++;
+				auxSumaPrecioPasajeros += list[i].price ;
+			}
+		}
+
+		auxPromedioPrecioPasajeros = auxSumaPrecioPasajeros / auxContadorPasajeros;
+
+		for (j = 0; j < len; ++j) {
+
+			if(list[j].isEmpty == OCUPADO)
+			{
+				if(list[j].price > auxPromedioPrecioPasajeros)
+				{
+					auxCantidadPasajerosSuperanPromedio++;
+				}
+
+			}
+		}
+
+		*total = auxSumaPrecioPasajeros ;
+		*promedio = auxPromedioPrecioPasajeros ;
+		*cantidadPasajerosSuperanPromedio = auxCantidadPasajerosSuperanPromedio;
+
+		estado = 1;
+	}
+
+	return estado ;
+}
+
+/*int imprimirApellido_Tipo(Passenger* list , int len )
+ *parametro Passenger* list : es la estructa
+ *parametro int len : es la longitud del tamnio de la estructura
+ *parametro return = retorna 1 si salio todo bien , de lo contrario -1
+ *Se encarga de mostrar un listado de apellido y tipo de pasajero  */
+int imprimirApellido_Tipo(Passenger* list , int len )
+{
+	int estado = -1;
+	int i ;
+	if(list != NULL  && len > 0)
+	{
+		printf("\nBIEN");
+		for (i = 0; i < len ; ++i) {
+
+			if(list[i].isEmpty == OCUPADO)
+			{
+				estado = 1;
+				switch(list[i].typePassenger)
+				{
+				case 1:
+					printf("\nAPELLIDO : %s || TIPO DE PASAJERO : TURISTA ", list[i].lastName );
+					break;
+				case 2:
+					printf("\nAPELLIDO : %s || TIPO DE PASAJERO : EJECUTIVO ", list[i].lastName );
+					break;
+				}
+
+			}
+		}
+	}
+
+	return estado;
+}
 
 

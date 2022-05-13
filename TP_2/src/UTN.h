@@ -20,4 +20,6 @@ int utn_pedirChar(char *pLetra , char *mensaje , char *mensajeError, int largo ,
 int utn_pedirInt(int *pNumero , char *mensaje , char *mensajeError, int minimo , int maximo , int repeticiones);
 int utn_pedirFloat(float *pNumero , char *mensaje , char *mensajeError, float minimo , float maximo , int repeticiones);
 
+
+
 #endif /* UTN_H_ */

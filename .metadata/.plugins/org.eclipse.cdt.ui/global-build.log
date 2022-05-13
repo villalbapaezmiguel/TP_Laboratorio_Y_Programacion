@@ -7156,3 +7156,671 @@ make: No se hace nada para 'all'.
 17:24:28 **** Incremental Build of configuration Debug for project TP_2 ****
 make all 
 make: No se hace nada para 'all'.
+23:36:21 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘menu’:
+../src/ArrayPassenger.c:261:3: error: case label not within a switch statement
+  261 |   case 2:
+      |   ^~~~
+../src/ArrayPassenger.c:279:3: error: case label not within a switch statement
+  279 |   case 3:
+      |   ^~~~
+../src/ArrayPassenger.c:298:3: error: case label not within a switch statement
+  298 |   case 4:
+      |   ^~~~
+../src/ArrayPassenger.c:307:3: error: case label not within a switch statement
+  307 |   case 5:
+      |   ^~~~
+../src/ArrayPassenger.c:310:3: error: ‘default’ label not within a switch statement
+  310 |   default : printf("\nERROR opcion invalida ");
+      |   ^~~~~~~
+make: *** [src/subdir.mk:26: src/ArrayPassenger.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:37:16 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:37:47 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:37:50 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+23:47:14 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘menu’:
+../src/ArrayPassenger.c:304:9: warning: ‘opcionInformar’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  304 |     int opcionInformar ;
+      |         ^~~~~~~~~~~~~~
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:48:03 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:48:52 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:48:55 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+19:48:05 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building file: ../src/TP_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TP_2.d" -MT"src/TP_2.o" -o "src/TP_2.o" "../src/TP_2.c"
+Finished building: ../src/TP_2.c
+ 
+Building file: ../src/UTN.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/UTN.d" -MT"src/UTN.o" -o "src/UTN.o" "../src/UTN.c"
+Finished building: ../src/UTN.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+19:49:29 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+19:49:32 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+19:52:59 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+19:53:01 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+19:56:00 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+19:56:04 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+19:57:29 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+19:57:32 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+19:59:09 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:01:03 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+20:01:05 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+20:09:04 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘TotalPromedioPasajeros’:
+../src/ArrayPassenger.c:495:10: error: invalid operands to binary != (have ‘Passenger’ {aka ‘struct <anonymous>’} and ‘void *’)
+  495 |  if(list != NULL && len > 0)
+      |          ^~
+../src/ArrayPassenger.c:499:11: error: subscripted value is neither array nor pointer nor vector
+  499 |    if(list[i].isEmpty == OCUPADO)
+      |           ^
+../src/ArrayPassenger.c:502:32: error: subscripted value is neither array nor pointer nor vector
+  502 |     sumaPrecioPasajeros += list[i].price ;
+      |                                ^
+../src/ArrayPassenger.c:493:6: warning: variable ‘sumaPrecioPasajeros’ set but not used [-Wunused-but-set-variable]
+  493 |  int sumaPrecioPasajeros = 0;
+      |      ^~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/ArrayPassenger.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:09:23 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:10:27 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘TotalPromedioPasajeros’:
+../src/ArrayPassenger.c:494:8: warning: variable ‘promedioPrecioPasajeros’ set but not used [-Wunused-but-set-variable]
+  494 |  float promedioPrecioPasajeros = 0;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:12:28 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘TotalPromedioPasajeros’:
+../src/ArrayPassenger.c:495:6: warning: unused variable ‘auxcantidadPasajerosSuperanPromedio’ [-Wunused-variable]
+  495 |  int auxcantidadPasajerosSuperanPromedio = 0;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ArrayPassenger.c:494:8: warning: variable ‘promedioPrecioPasajeros’ set but not used [-Wunused-but-set-variable]
+  494 |  float promedioPrecioPasajeros = 0;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:12:53 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘TotalPromedioPasajeros’:
+../src/ArrayPassenger.c:502:5: error: ‘contadorPasajeros’ undeclared (first use in this function); did you mean ‘auxContadorPasajeros’?
+  502 |     contadorPasajeros++;
+      |     ^~~~~~~~~~~~~~~~~
+      |     auxContadorPasajeros
+../src/ArrayPassenger.c:502:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/ArrayPassenger.c:503:5: error: ‘sumaPrecioPasajeros’ undeclared (first use in this function); did you mean ‘auxSumaPrecioPasajeros’?
+  503 |     sumaPrecioPasajeros += list[i].price ;
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     auxSumaPrecioPasajeros
+../src/ArrayPassenger.c:507:3: error: ‘promedioPrecioPasajeros’ undeclared (first use in this function); did you mean ‘auxPromedioPrecioPasajeros’?
+  507 |   promedioPrecioPasajeros = sumaPrecioPasajeros / contadorPasajeros;
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+      |   auxPromedioPrecioPasajeros
+../src/ArrayPassenger.c:495:6: warning: unused variable ‘auxCantidadPasajerosSuperanPromedio’ [-Wunused-variable]
+  495 |  int auxCantidadPasajerosSuperanPromedio = 0;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ArrayPassenger.c:494:8: warning: unused variable ‘auxPromedioPrecioPasajeros’ [-Wunused-variable]
+  494 |  float auxPromedioPrecioPasajeros = 0;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ArrayPassenger.c:493:6: warning: unused variable ‘auxSumaPrecioPasajeros’ [-Wunused-variable]
+  493 |  int auxSumaPrecioPasajeros = 0;
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+../src/ArrayPassenger.c:492:6: warning: unused variable ‘auxContadorPasajeros’ [-Wunused-variable]
+  492 |  int auxContadorPasajeros = 0;
+      |      ^~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/ArrayPassenger.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:13:08 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘TotalPromedioPasajeros’:
+../src/ArrayPassenger.c:507:3: error: ‘promedioPrecioPasajeros’ undeclared (first use in this function); did you mean ‘auxPromedioPrecioPasajeros’?
+  507 |   promedioPrecioPasajeros = sumaPrecioPasajeros / contadorPasajeros;
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+      |   auxPromedioPrecioPasajeros
+../src/ArrayPassenger.c:507:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/ArrayPassenger.c:507:29: error: ‘sumaPrecioPasajeros’ undeclared (first use in this function); did you mean ‘auxSumaPrecioPasajeros’?
+  507 |   promedioPrecioPasajeros = sumaPrecioPasajeros / contadorPasajeros;
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             auxSumaPrecioPasajeros
+../src/ArrayPassenger.c:507:51: error: ‘contadorPasajeros’ undeclared (first use in this function); did you mean ‘auxContadorPasajeros’?
+  507 |   promedioPrecioPasajeros = sumaPrecioPasajeros / contadorPasajeros;
+      |                                                   ^~~~~~~~~~~~~~~~~
+      |                                                   auxContadorPasajeros
+../src/ArrayPassenger.c:495:6: warning: unused variable ‘auxCantidadPasajerosSuperanPromedio’ [-Wunused-variable]
+  495 |  int auxCantidadPasajerosSuperanPromedio = 0;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ArrayPassenger.c:494:8: warning: unused variable ‘auxPromedioPrecioPasajeros’ [-Wunused-variable]
+  494 |  float auxPromedioPrecioPasajeros = 0;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/ArrayPassenger.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+20:13:43 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘TotalPromedioPasajeros’:
+../src/ArrayPassenger.c:495:6: warning: unused variable ‘auxCantidadPasajerosSuperanPromedio’ [-Wunused-variable]
+  495 |  int auxCantidadPasajerosSuperanPromedio = 0;
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/ArrayPassenger.c:494:8: warning: variable ‘auxPromedioPrecioPasajeros’ set but not used [-Wunused-but-set-variable]
+  494 |  float auxPromedioPrecioPasajeros = 0;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:14:36 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:15:30 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:16:51 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:17:11 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building file: ../src/TP_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TP_2.d" -MT"src/TP_2.o" -o "src/TP_2.o" "../src/TP_2.c"
+Finished building: ../src/TP_2.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:18:11 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘menu’:
+../src/ArrayPassenger.c:233:6: warning: unused variable ‘cantidadPasajeros’ [-Wunused-variable]
+  233 |  int cantidadPasajeros = 0;
+      |      ^~~~~~~~~~~~~~~~~
+../src/ArrayPassenger.c:232:8: warning: unused variable ‘promedio’ [-Wunused-variable]
+  232 |  float promedio = 0;
+      |        ^~~~~~~~
+../src/ArrayPassenger.c:231:6: warning: unused variable ‘total’ [-Wunused-variable]
+  231 |  int total = 0;
+      |      ^~~~~
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:20:15 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+20:20:26 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+20:25:09 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:27:16 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building file: ../src/TP_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TP_2.d" -MT"src/TP_2.o" -o "src/TP_2.o" "../src/TP_2.c"
+Finished building: ../src/TP_2.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:30:08 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building file: ../src/TP_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TP_2.d" -MT"src/TP_2.o" -o "src/TP_2.o" "../src/TP_2.c"
+Finished building: ../src/TP_2.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:43:25 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building file: ../src/TP_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TP_2.d" -MT"src/TP_2.o" -o "src/TP_2.o" "../src/TP_2.c"
+Finished building: ../src/TP_2.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:44:10 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building file: ../src/TP_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TP_2.d" -MT"src/TP_2.o" -o "src/TP_2.o" "../src/TP_2.c"
+Finished building: ../src/TP_2.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:44:13 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+23:46:30 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘imprimirApellido_Tipo’:
+../src/ArrayPassenger.c:541:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+  541 |  int estado = -1;
+      |      ^~~~~~
+../src/ArrayPassenger.c:567:1: warning: control reaches end of non-void function [-Wreturn-type]
+  567 | }
+      | ^
+../src/ArrayPassenger.c:547:10: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  547 |   if(list[i].isEmpty == OCUPADO)
+      |          ^
+Finished building: ../src/ArrayPassenger.c
+ 
+Building file: ../src/TP_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/TP_2.d" -MT"src/TP_2.o" -o "src/TP_2.o" "../src/TP_2.c"
+Finished building: ../src/TP_2.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:47:36 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘imprimirApellido_Tipo’:
+../src/ArrayPassenger.c:541:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+  541 |  int estado = -1;
+      |      ^~~~~~
+../src/ArrayPassenger.c:568:1: warning: control reaches end of non-void function [-Wreturn-type]
+  568 | }
+      | ^
+../src/ArrayPassenger.c:547:10: warning: ‘i’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  547 |   if(list[i].isEmpty == OCUPADO)
+      |          ^
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:48:43 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘imprimirApellido_Tipo’:
+../src/ArrayPassenger.c:541:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+  541 |  int estado = -1;
+      |      ^~~~~~
+../src/ArrayPassenger.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+  565 | }
+      | ^
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:49:27 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+../src/ArrayPassenger.c: In function ‘imprimirApellido_Tipo’:
+../src/ArrayPassenger.c:541:6: warning: variable ‘estado’ set but not used [-Wunused-but-set-variable]
+  541 |  int estado = -1;
+      |      ^~~~~~
+../src/ArrayPassenger.c:565:1: warning: control reaches end of non-void function [-Wreturn-type]
+  565 | }
+      | ^
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:49:44 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:49:49 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+23:50:49 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:50:51 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+23:51:50 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:51:56 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+make: No se hace nada para 'all'.
+23:54:33 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
+23:59:16 **** Incremental Build of configuration Debug for project TP_2 ****
+make all 
+Building file: ../src/ArrayPassenger.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ArrayPassenger.d" -MT"src/ArrayPassenger.o" -o "src/ArrayPassenger.o" "../src/ArrayPassenger.c"
+Finished building: ../src/ArrayPassenger.c
+ 
+Building target: TP_2
+Invoking: GCC C Linker
+gcc  -o "TP_2"  ./src/ArrayPassenger.o ./src/TP_2.o ./src/UTN.o   
+Finished building target: TP_2
+ 
