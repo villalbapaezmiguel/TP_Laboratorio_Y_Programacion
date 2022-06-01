@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "LinkedList.h"
 #include "Passenger.h"
+#include "parser.h"
 
 
 /** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo texto).
@@ -14,10 +15,22 @@
 int controller_loadFromText(char* path , LinkedList* pArrayListPassenger)
 {
 	FILE* pArchivo ;
+	FILE* pArchivoDos ;
+	int estado = -1;
 
-	pArchivo = fopen( );
+	pArchivo = fopen(path, "r");
+	pArchivoDos = fopen("archivo.txt", "w");
 
-    return 1;
+	if(pArchivo != NULL)
+	{
+		parser_PassengerFromText(pArchivo, pArrayListPassenger);
+		fclose(pArchivo);
+		estado = 1;
+
+	}
+
+
+    return estado;
 }
 
 /** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo binario).
