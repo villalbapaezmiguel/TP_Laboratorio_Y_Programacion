@@ -14,23 +14,9 @@
  */
 int controller_loadFromText(char* path , LinkedList* pArrayListPassenger)
 {
-	FILE* pArchivo ;
-	FILE* pArchivoDos ;
-	int estado = -1;
-
-	pArchivo = fopen(path, "r");
-	pArchivoDos = fopen("archivo.txt", "w");
-
-	if(pArchivo != NULL)
-	{
-		parser_PassengerFromText(pArchivo, pArrayListPassenger);
-		fclose(pArchivo);
-		estado = 1;
-
-	}
 
 
-    return estado;
+    return 1;
 }
 
 /** \brief Carga los datos de los pasajeros desde el archivo data.csv (modo binario).
