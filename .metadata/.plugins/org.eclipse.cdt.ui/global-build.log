@@ -1,125 +1,4 @@
-19:28:17 **** Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-Finished building: ../Controller.c
- 
-Building file: ../Passenger.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Passenger.d" -MT"Passenger.o" -o "Passenger.o" "../Passenger.c"
-Finished building: ../Passenger.c
- 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building file: ../parser.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parser.d" -MT"parser.o" -o "parser.o" "../parser.c"
-Finished building: ../parser.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-19:28:23 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-make: No se hace nada para 'all'.
-19:28:54 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-19:28:55 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-make: No se hace nada para 'all'.
-19:41:27 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-21:00:34 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-Finished building: ../Controller.c
- 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-../main.c: In function ‘main’:
-../main.c:42:22: error: expected ‘;’ before ‘switch’
-   42 |        "\n10. Salir")
-      |                      ^
-      |                      ;
-   43 |         switch(option)
-      |         ~~~~~~        
-../main.c:30:17: warning: unused variable ‘listaPasajeros’ [-Wunused-variable]
-   30 |     LinkedList* listaPasajeros = ll_newLinkedList();
-      |                 ^~~~~~~~~~~~~~
-make: *** [subdir.mk:29: main.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-21:00:51 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building file: ../parser.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parser.d" -MT"parser.o" -o "parser.o" "../parser.c"
-Finished building: ../parser.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-21:04:08 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-Finished building: ../Controller.c
- 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building file: ../parser.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parser.d" -MT"parser.o" -o "parser.o" "../parser.c"
-Finished building: ../parser.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-21:04:10 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-make: No se hace nada para 'all'.
-21:05:37 **** Incremental Build of configuration Debug for project TP_3 ****
+19:40:40 **** Build of configuration Debug for project TP_3 ****
 make all 
 Building file: ../Controller.c
 Invoking: GCC C Compiler
@@ -134,9 +13,6 @@ Finished building: ../Passenger.c
 Building file: ../UTN.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"UTN.d" -MT"UTN.o" -o "UTN.o" "../UTN.c"
-../UTN.c:108:12: warning: ‘esNumericaVideo’ defined but not used [-Wunused-function]
-  108 | static int esNumericaVideo(char* cadena , int limite)
-      |            ^~~~~~~~~~~~~~~
 Finished building: ../UTN.c
  
 Building file: ../main.c
@@ -154,140 +30,25 @@ Invoking: GCC C Linker
 gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
 Finished building target: TP_3
  
-21:06:18 **** Incremental Build of configuration Debug for project TP_3 ****
+19:41:04 **** Incremental Build of configuration Debug for project TP_3 ****
 make all 
-Building file: ../UTN.c
+Building file: ../parser.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"UTN.d" -MT"UTN.o" -o "UTN.o" "../UTN.c"
-Finished building: ../UTN.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parser.d" -MT"parser.o" -o "parser.o" "../parser.c"
+Finished building: ../parser.c
  
 Building target: TP_3
 Invoking: GCC C Linker
 gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
 Finished building target: TP_3
  
-21:06:22 **** Incremental Build of configuration Debug for project TP_3 ****
+18:54:44 **** Build of configuration Debug for project TP_3 ****
+make all 
+Building target: TP_3
+Invoking: GCC C Linker
+gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/TP_3/LinkedList.a
+Finished building target: TP_3
+ 
+18:54:47 **** Incremental Build of configuration Debug for project TP_3 ****
 make all 
 make: No se hace nada para 'all'.
-18:56:23 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-../Controller.c: In function ‘controller_loadFromText’:
-../Controller.c:18:13: error: too few arguments to function ‘fopen’
-   18 |  pArchivo = fopen( );
-      |             ^~~~~
-In file included from ../Controller.c:1:
-/usr/include/stdio.h:246:14: note: declared here
-  246 | extern FILE *fopen (const char *__restrict __filename,
-      |              ^~~~~
-../Controller.c:16:8: warning: variable ‘pArchivo’ set but not used [-Wunused-but-set-variable]
-   16 |  FILE* pArchivo ;
-      |        ^~~~~~~~
-make: *** [subdir.mk:32: Controller.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-19:10:32 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-Finished building: ../Controller.c
- 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-19:13:49 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-Finished building: ../Controller.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-19:36:23 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-Finished building: ../Controller.c
- 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building file: ../parser.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parser.d" -MT"parser.o" -o "parser.o" "../parser.c"
-Finished building: ../parser.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-21:17:08 **** Incremental Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-../Controller.c: In function ‘controller_loadFromText’:
-../Controller.c:18:8: warning: variable ‘pArchivoDos’ set but not used [-Wunused-but-set-variable]
-   18 |  FILE* pArchivoDos ;
-      |        ^~~~~~~~~~~
-Finished building: ../Controller.c
- 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building file: ../parser.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parser.d" -MT"parser.o" -o "parser.o" "../parser.c"
-Finished building: ../parser.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
-19:14:53 **** Build of configuration Debug for project TP_3 ****
-make all 
-Building file: ../Controller.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Controller.d" -MT"Controller.o" -o "Controller.o" "../Controller.c"
-Finished building: ../Controller.c
- 
-Building file: ../Passenger.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Passenger.d" -MT"Passenger.o" -o "Passenger.o" "../Passenger.c"
-Finished building: ../Passenger.c
- 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-Finished building: ../main.c
- 
-Building file: ../parser.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"parser.d" -MT"parser.o" -o "parser.o" "../parser.c"
-Finished building: ../parser.c
- 
-Building target: TP_3
-Invoking: GCC C Linker
-gcc  -o "TP_3"  ./Controller.o ./Passenger.o ./UTN.o ./main.o ./parser.o   /home/miguel/Escritorio/capetaDeLosTPS/TP_Laboratorio_Y_Programacion/claseSabado/LinkedList.a
-Finished building target: TP_3
- 
