@@ -32,8 +32,13 @@ int initPassengers(Passenger* list, int len)
 }
 
 /*Agrega en un array de pasajeros existente los valores recibidos como parámetro en la primer
-posición libre.*/
-int addPassenger(Passenger* list, int len, int id)
+posición libre.
+*parametro  : Passenger* list = es la estructa
+*parametro  : int len = longitud del tamnio de la estructura
+*parametro  : int* lugarLibre = es el lugar libre que se encontro
+*parametro  : int posicionLibre = es la posicion libre que se encontro y se paso como parametro
+*return = retorna 1 si salio todo bien , de lo contrario -1*/
+int addPassenger(Passenger* list, int len, int posicionLibre)
 {
 	int estado = -1;
 	int auxEstado ;
@@ -41,7 +46,7 @@ int addPassenger(Passenger* list, int len, int id)
 
 	if(list != NULL && len > 0)
 	{
-		if(list[id].isEmpty == VACIO)
+		if(list[posicionLibre].isEmpty == VACIO)
 		{
 
 			auxEstado = utn_getNombre(auxPassanger.name, NAME_LASTNAME, "\nIngrese su nombre : ", "\nERROR ", 2);
@@ -76,8 +81,8 @@ int addPassenger(Passenger* list, int len, int id)
 			}
 
 			auxPassanger.id = nuevoId();
-			list[id] = auxPassanger;
-			list[id].isEmpty = OCUPADO;
+			list[posicionLibre] = auxPassanger;
+			list[posicionLibre].isEmpty = OCUPADO;
 			estado = 1;
 		}
 	}
@@ -153,7 +158,10 @@ int removePassenger(Passenger* list, int len, int id)
 	return retorno;
 }
 
-
+/*esta funcion se encangar de ordenar alfabaticamnete los apellidos
+ *parametros : Passenger* list , es un puntero a la lista de pasajeros
+ *parametros : int len , es la longuitud que mide el arra de Passsanger
+ *Return : retorna 1 si salio todo bien , de lo contrario -1*/
 int ordenarPorApellido(Passenger* list , int len)
 {
 	int retorno = -1;
@@ -188,30 +196,38 @@ int ordenarPorApellido(Passenger* list , int len)
 	return retorno;
 }
 
+/*Esta funcion se encarga de imprimir todos los datos dek passanger
+ *parametro : Passenger* list ,es un puntero a la lista de pasajeros
+ *parametro : int length es la longuitud que mide el array de passanger
+ *return : retorna  1 si salio todo bien , de lo contrario -1*/
 int printPassenger(Passenger* list, int length)
 {
 	int estado = -1;
 	int i ;
 
-	for (i = 0; i < length; ++i) {
+	if(length > 0)
+	{
+		estado = 1;
+		for (i = 0; i < length; ++i) {
 
-		if(list[i].isEmpty == OCUPADO)
-		{
-			if(list[i].typePassenger == 1)
+			if(list[i].isEmpty == OCUPADO)
 			{
-				printf("\nId : %d || Name : %s|| LasName : %s ||  Price : %2f || Flycode : %s || Type Passanger : TURISTA ",
-						list[i].id , list[i].name , list[i].lastName , list[i].price , list[i].flycode );
+				if(list[i].typePassenger == 1)
+				{
+					printf("\nId : %d || Name : %s|| LasName : %s ||  Price : %2f || Flycode : %s || Type Passanger : TURISTA ",
+							list[i].id , list[i].name , list[i].lastName , list[i].price , list[i].flycode );
 
-			}else if(list[i].typePassenger == 2){
+				}else if(list[i].typePassenger == 2){
 
-				printf("\nId : %d || Name : %s|| LasName : %s ||  Price : %2f || Flycode : %s || Type Passanger : EJECUTIVO ",
-				list[i].id , list[i].name , list[i].lastName , list[i].price , list[i].flycode );
+					printf("\nId : %d || Name : %s|| LasName : %s ||  Price : %2f || Flycode : %s || Type Passanger : EJECUTIVO ",
+					list[i].id , list[i].name , list[i].lastName , list[i].price , list[i].flycode );
 
-			}else{
-				printf("\nERROR");
-				printf("\nId : %d || Name : %s|| LasName : %s ||  Price : %2f || Flycode : %s || Type Passanger : %d ",
-				list[i].id , list[i].name , list[i].lastName , list[i].price , list[i].flycode , list[i].typePassenger);
+				}else{
+					printf("\nERROR");
+					printf("\nId : %d || Name : %s|| LasName : %s ||  Price : %2f || Flycode : %s || Type Passanger : %d ",
+					list[i].id , list[i].name , list[i].lastName , list[i].price , list[i].flycode , list[i].typePassenger);
 
+				}
 			}
 		}
 	}
